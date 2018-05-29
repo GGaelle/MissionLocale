@@ -8,6 +8,8 @@
   <!--Css-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
   <!--style de police-->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
   <title>Mission Locale La Roche sur Yon</title>
@@ -52,8 +54,8 @@
 
     <div class="row">
       <div class="col-md-12">
-        <h1>Vous avez besoin d'aides ?</h1>
-        <p>Venez nous rencontrer du lundi au vendredi de 8h30 à 12h30 et de 13h30 à 17h30 <br>
+        <h1 class="title-header">Vous avez besoin d'aides ?</h1>
+        <p class="text-header">Venez nous rencontrer du lundi au vendredi de 8h30 à 12h30 et de 13h30 à 17h30 <br>
           Fermeture le mardi matin. Ou bien appelez-nous au :
         </p><br>
 
@@ -124,7 +126,10 @@
         <div class="col-md-12">
           <div class="fond-actu"><img class="picto-actu" src="img/picto-actu.png" alt="picto-actu"></div>
           <h2 class="title-actu">Actualités</h2>
-          <div class="powr-social-feed" id="b50d188c_1527172722"></div>
+          <div class="fil-actu col-md-6">
+            <ul class="juicer-feed" data-feed-id="missionlocalepaysyonnais85" data-per="3"><h1 class="referral"></h1></ul>
+            <!--<div class="powr-social-feed" id="b50d188c_1527172722"></div>-->
+          </div>
         </div>
       </div>
     </section>
@@ -180,10 +185,10 @@
              <div class="row">
                <div class="col-md-6">
                  <div id="copyright">
-                   <p>Copyright &copy; 2018<a> - Mission Locale La-Roche-sur-Yon</a></p>
-                   <a class="author" href="https://www.linkedin.com/in/ga%C3%ABlle-gibier-a1b1bb159/" rel="author">GIBIER Gaëlle</a><br>
-                   <a class="author" href="https://www.linkedin.com/in/%C3%A9lo%C3%AFse-hall-716223162/" rel="author">HALL Éloïse</a>
-
+                   <div><img class="logo-footer" src="img/logo-small.png" alt="logo"></div>
+                   <p class="text-copy">Copyright &copy; 2018<span> - Mission Locale La-Roche-sur-Yon</span></p>
+                   <p class="auteurs">Réalisation : <a class="author" href="https://www.linkedin.com/in/ga%C3%ABlle-gibier-a1b1bb159/" rel="author">GIBIER Gaëlle</a> -
+                   <a class="author" href="https://www.linkedin.com/in/%C3%A9lo%C3%AFse-hall-716223162/" rel="author">HALL Éloïse</a></p>
                  </div>
                </div>
                <div class="col-md-6">
@@ -198,9 +203,14 @@
 
 
     <!--Bootstrap Javascript Jquery-->
-    <script src="//www.powr.io/powr.js?external-type=html"></script>
+    <script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   </body>
   </html>
+
+
+
+
+<!--  <script src="//www.powr.io/powr.js?external-type=html"></script> -->

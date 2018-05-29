@@ -9,16 +9,29 @@ body {
   margin: -25px;
 }
 
-/*--------navigateur----*/
-/*.navbar-default{
-  background-color: transparent;
-  color: #fff;
-  z-index: 110;
-  transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  -webkit-transition: all 1s;
+/* scrollbar fil actu */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
 }
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background: #7f7f7f;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7f7f7f;
+}
+
+
 
 /*header*/
 header {
@@ -27,14 +40,14 @@ header {
   background-repeat: no-repeat;
   width: auto;
 }
-h1 {
+.title-header {
   padding-top: 150px;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
   color: #fff;
 }
-p {
+.text-header {
   font-size: 16px;
   text-align: center;
   color: #fff;
@@ -118,7 +131,7 @@ padding-top: 55px;
 }
 
 
-/*Actualités*/
+/*Fil Actualités*/
 .actu {
   margin-top: 105px;
   text-align: center;
@@ -137,14 +150,50 @@ padding-top: 55px;
   text-align: center;
   margin-top: -25px;
 }
-.powr-social-feed {
-  margin-bottom: 105px;
-}
-#b50d188c_1527172722 {
+
+.fil-actu {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 10px;
+  margin-left: 25%;
+  /*background: linear-gradient(to top, rgb(162, 26, 92)0%, rgb(255, 255, 255)100%);*/
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+  height: auto;
+  margin-bottom: 45px;
+  box-shadow: 2px 2px 10px #747474;
 }
+.fil-actu .juicer-feed .referral a {
+ display: none;
+}
+.auto {
+ display: none;
+}
+.juicer-feed .j-paginate {
+ display: none;
+}
+
+
+/* scrollbar fil actu */
+/* width */
+.fil-actu ::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+.fil-actu ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+/* Handle */
+.fil-actu ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+/* Handle on hover */
+.fil-actu ::-webkit-scrollbar-thumb:hover {
+    background: #7f7f7f;
+}
+
 
 
 /* Team */
@@ -238,23 +287,31 @@ padding-top: 55px;
 
 /*-------footer---------*/
 footer{
-  background-color: black;
+  background-color: #2e2e2e;
   padding-bottom: 35px;
   padding-top: 35px;
   border-bottom: 3px solid #f2920b;
   margin-top: 100px;
 }
 
-#copyright p{
+.logo-footer {
+  width: 20%;
+  margin-left: -11px;
+}
+.text-copy{
   text-align: left;
   color: #fff;
   font-weight:400;
   font-size: 15px;
   text-transform: uppercase;
 }
-#copyright p a{
+#copyright p span{
   text-decoration: none;
   color: #f2920b;
+}
+.auteurs {
+  font-size: 13px;
+  color: #747474
 }
 .author{
   font-size: 13px;
@@ -265,7 +322,7 @@ footer{
   color: #f2920b;
 }
 .scroll-top{
-  margin: 15px;
+  margin-top: 100px;
   text-align: right;
 }
 .scroll-top a{
