@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--favicon-->
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png">
+  <!--Css-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--style de police-->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <title>Mission Locale La Roche sur Yon</title>
+</head>
+
+<body>
+
+<header class="Accueil" id="Accueil">
+
+<!--Navbar-->
+   <nav class="navbar navbar-default navbar-fixed-top">
+     <div class="container">
+
+       <!-- Affichage mobile -->
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mission-navbar-collapse-1" aria-expanded="true">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#">
+           <!--Petit logo-->
+           <div><img class="img-logo" src="img/logo-small.png" alt="logo"></div>
+         </a>
+       </div>
+
+       <!-- Liens de navigation-->
+       <div class="collapse navbar-collapse" id="mission-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right">
+           <li><a href="#Emploi" class="nav-item">Emploi</a></li>
+           <li><a href="#Formation" class="nav-item">Formation</a></li>
+           <li><a href="#Logement" class="nav-item">Logement</a></li>
+           <li><a href="#Sante" class="nav-item">Santé</a></li>
+           <li><a href="#Mobilite" class="nav-item">Mobilité</a></li>
+         </ul>
+       </div><!--navbar-->
+     </div><!--container-->
+   </nav>
+
+
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Vous avez besoin d'aides ?</h1>
+        <p>Venez nous rencontrer du lundi au vendredi de 8h30 à 12h30 et de 13h30 à 17h30 <br>
+          Fermeture le mardi matin. Ou bien appelez-nous au :
+        </p><br>
+
+        <!--bouton phone-->
+        <div class="bouton">
+          <a href="#" class="btn btn-phone" role="button"><strong><span class="glyphicon glyphicon-earphone" ></span> 02 51 09 89 70</strong></a><br>
+        </div>
+
+        <!--itineraire-->
+        <div class="itineraire">
+            <a href="https://www.google.fr/maps/dir/''/mission+locale/@46.6727496,-1.5018517,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x48042fedb96e1713:0xa97f51178510081b!2m2!1d-1.431812!2d46.672771" target="_blank">
+            <p><img class="picto-localisation" src="img/picto-localisation.png" alt="localisation"> Espace Prévert, 70 rue Chanzy 85000 LA ROCHE SUR YON</p></a>
+        </div>
+        </div>
+      </div>
+      </header>
+
+
+<!-- Boutons emplois, formations, logement, santé -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-xs-12">
+            <div class="emploi" id="Emploi">
+              <div class="pictos">
+                <img src="img/job-search-in-newspapers.png" alt="picto-job">
+              </div>
+              <h3>EMPLOI</h3>
+              <p class="descriptif">consulter nos offres d'emploi</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-xs-12">
+            <div class="formation" id="Formation">
+              <div class="pictos">
+                <img src="img/diploma-and-graduate-cap.png" alt="picto-formation">
+              </div>
+              <h3>FORMATION</h3>
+              <p class="descriptif">+ de 200 formations disponibles</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-xs-12">
+            <div class="logement" id="Logement">
+              <div class="pictos">
+                <img src="img/home.png" alt="picto-home">
+              </div>
+              <h3>LOGEMENT</h3>
+              <p class="descriptif">aide au logement</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-xs-12">
+            <div class="sante" id="Sante">
+              <div class="pictos">
+                <img src="img/doctor-stethoscope.png" alt="picto-doctor">
+              </div>
+              <h3>SANTÉ</h3>
+              <p class="descriptif">informations et accès aux soins</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!-- Section Actu visible que sur serveur -->
+    <section class="actu">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="fond-actu"><img class="picto-actu" src="img/picto-actu.png" alt="picto-actu"></div>
+          <h2 class="title-actu">Actualités</h2>
+          <div class="powr-social-feed" id="b50d188c_1527172722"></div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Section Cartographie -->
+    <section class="team">
+      <div class="row">
+        <div class="col-md-2 col-md-offset-1">
+          <div>
+            <img class="img-team" src="img/img-team.png" alt="carte">
+          </div>
+        </div>
+
+        <div class="description-team col-md-4">
+          <h2 class="title-team">Notre équipe</h2>
+          <p class="text-team">Praesent augue mi, semper nec quam non, ornare elementum tellus. Curabitur id tincidunt tortor. Pellentesque gravida eget ipsum vel varius. Nunc eleifend eleifend velit a scelerisque. Curabitur sed neque id massa consectetur varius eget aliquet tortor.</p>
+          <a href="#" class="btn btn-savoir" role="button"><strong> En savoir plus</strong></a><br>
+        </div>
+
+      </div>
+    </section>
+
+
+<!-- Section Entreprise -->
+<section class="entreprise">
+  <div class="row">
+
+    <div class="description-pro col-md-4">
+      <div class="fond-pro"><img class="picto-pro" src="img/picto-pro.png" alt="picto-team"></div>
+      <h2 class="title-pro">Espace Entreprises, Institutions, Bénévoles...</h2>
+      <p class="text-pro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis ipsum id quam efficitur tempor. Vivamus vitae urna nec felis hendrerit semper. Pellentesque non tincidunt neque. Integer ultricies nunc et magna laoreet volutpat.</p>
+      <a href="#" class="btn btn-savoir-pro" role="button"><strong> Entrer</strong></a><br>
+    </div>
+
+    <div class="col-md-2 col-md-offset-1">
+      <div>
+        <img class="img-pro" src="img/pro.jpg" alt="carte">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+<!-- Footer -->
+    <footer>
+
+         <div class="container">
+             <div class="row">
+               <div class="col-md-6">
+                 <div id="copyright">
+                   <p>Copyright &copy; 2018<a> - Mission Locale La-Roche-sur-Yon</a></p>
+                   <a class="author" href="https://www.linkedin.com/in/ga%C3%ABlle-gibier-a1b1bb159/" rel="author">GIBIER Gaëlle</a><br>
+                   <a class="author" href="https://www.linkedin.com/in/%C3%A9lo%C3%AFse-hall-716223162/" rel="author">HALL Éloïse</a>
+
+                 </div>
+               </div>
+               <div class="col-md-6">
+                 <div class="scroll-top">
+                   <a href="#Accueil" id='scroll-to-top'><i class="glyphicon glyphicon-chevron-up"></i></a>
+                 </div>
+               </div>
+             </div>
+           </div>
+
+       </footer>
+
+
+    <!--Bootstrap Javascript Jquery-->
+    <script src="//www.powr.io/powr.js?external-type=html"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </body>
+  </html>

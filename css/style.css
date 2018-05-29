@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.img-logo {
+  width: 80%;
+  margin: -25px;
+}
+
+/*--------navigateur----*/
+/*.navbar-default{
+  background-color: transparent;
+  color: #fff;
+  z-index: 110;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+/*header*/
+header {
+  background-image: url("../img/fond-header2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+}
+h1 {
+  padding-top: 150px;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+p {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+/*Boutton phone*/
+.btn-phone {
+  width: 180px;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 80px;
+  color: #fff;
+  background-color: #f2920b;
+  text-decoration: none;
+}
+.bouton {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/*itineraire*/
+.itineraire{
+  display:block;
+  padding-top: 65px;
+  margin-bottom: 210px;
+  text-decoration: none;
+}
+.itineraire:hover, .itineraire:focus{
+  color: #fff;
+  text-decoration: none;
+}
+.itineraire p {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+.picto-localisation {
+  margin-top: -20px;
+  text-decoration: none;
+}
+
+/*bloc emploi,formation,logement,santé*/
+h3{
+  text-align: left;
+  color: #fff;
+  font-weight: bold;
+  padding-left: 30px;
+  text-shadow: 2px 2px 8px #5b5b5b;
+}
+.descriptif {
+  padding-bottom: 55px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 10px;
+  text-shadow: 2px 2px 8px #5b5b5b;
+  font-size: 15px;
+}
+.pictos {
+text-align: left;
+padding-left: 30px;
+margin-top: -135px;
+padding-top: 55px;
+}
+
+.emploi {
+  background: linear-gradient(to left, rgb(255, 191, 0)0%, rgb(244, 134, 19)100%);
+  border-radius: 15px;
+}
+.formation {
+  background: linear-gradient(to left, rgb(164, 231, 111)0%, rgb(67, 171, 65)100%);
+  border-radius: 15px;
+}
+.logement {
+  background: linear-gradient(to left, rgb(109, 223, 223)0%, rgb(8, 140, 175)100%);
+  border-radius: 15px;
+}
+.sante {
+  background: linear-gradient(to left, rgb(235, 140, 217)0%, rgb(207, 52, 126)100%);
+  border-radius: 15px;
+}
+
+
+/*Actualités*/
+.actu {
+  margin-top: 105px;
+  text-align: center;
+}
+.fond-actu {
+ background-image: url("../img/forme-small.png");
+ background-repeat: no-repeat;
+ background-size: 65px;
+ background-position: center;
+}
+.picto-actu {
+  margin-top: 5px;
+  margin-bottom: 65px;
+}
+.title-actu {
+  text-align: center;
+  margin-top: -25px;
+}
+.powr-social-feed {
+  margin-bottom: 105px
+}
+
+
+/* Team */
+.team{
+  background-image: url("../img/forme-team-cut.png");
+  background-size: 570px;
+  background-repeat: no-repeat;
+  margin-top: 105px;
+}
+.img-team {
+  width: 500px;
+  margin-top: 75px;
+  margin-bottom: 135px;
+  margin-left: 55px;
+  border-radius: 10px;
+  border: 5px solid #fff;
+  box-shadow: 2px 2px 10px #747474;
+}
+.description-team {
+  margin-top: 155px;
+  text-align: left;
+  margin-left: 285px
+}
+.text-team {
+  color: #747474;
+  text-align: left;
+}
+.btn-savoir {
+  width: 150px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 80px;
+  color: #fff;
+  background: linear-gradient(to top, rgb(44, 151, 212)0%, rgb(109, 223, 223)50%, rgb(44, 151, 212)100%);
+  text-decoration: none;
+}
+
+
+/* Entreprise */
+.entreprise{
+  background-image: url("../img/forme-entreprise-cut.png");
+  background-size: 570px;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-top: 55px;
+}
+.fond-pro {
+ background-image: url("../img/forme-small.png");
+ background-repeat: no-repeat;
+ background-size: 65px;
+ background-position: center;
+}
+.picto-pro {
+  margin-top: 5px;
+  margin-left: -10px;
+  margin-bottom: 65px;
+}
+.img-pro {
+  width: 500px;
+  margin-top: 85px;
+  margin-bottom: 135px;
+  margin-left: 55px;
+  border-radius: 10px;
+  border: 5px solid #fff;
+  box-shadow: 2px 2px 10px #747474;
+}
+.description-pro {
+  margin-top: 75px;
+  text-align: center;
+  margin-left: 285px
+}
+.text-pro {
+  color: #747474;
+  text-align: center;
+}
+.btn-savoir-pro {
+  width: 150px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 80px;
+  color: #fff;
+  background: linear-gradient(to top, rgb(44, 151, 212)0%, rgb(109, 223, 223)50%, rgb(44, 151, 212)100%);
+  text-decoration: none;
+}
+
+
+
+
+
+/*-------footer---------*/
+footer{
+  background-color: black;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  border-bottom: 3px solid #f2920b;
+  margin-top: 100px;
+}
+
+#copyright p{
+  text-align: left;
+  color: #fff;
+  font-weight:400;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#copyright p a{
+  text-decoration: none;
+  color: #f2920b;
+}
+.author{
+  font-size: 13px;
+  color: #747474
+}
+.author:hover {
+  text-decoration: none;
+  color: #f2920b;
+}
+.scroll-top{
+  margin: 15px;
+  text-align: right;
+}
+.scroll-top a{
+  background-color: #f2920b;
+  padding: 15px;
+}
+.scroll-top a i{
+  color: #fff;
+  font-size: 15px;
+}
