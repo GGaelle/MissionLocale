@@ -159,17 +159,7 @@ padding-top: 55px;
   margin-top: -25px;
 }
 
-.fil-actu {
-  text-align: center;
-  margin-top: 10px;
-  margin-left: 25%;
-  padding: 15px;
-  border-radius: 10px;
-  height: auto;
-  margin-bottom: 45px;
-}
-
-.fil-actu .juicer-feed .referral a {
+.juicer-feed .referral a {
  display: none;
 }
 .auto {
@@ -180,25 +170,24 @@ padding-top: 55px;
 }
 
 
+
+
 /* scrollbar fil actu */
 /* width */
-.fil-actu ::-webkit-scrollbar {
-    width: 5px;
+/*.juicer-feed ::-webkit-scrollbar {
+    width: 10px;
 }
-/* Track */
-.fil-actu ::-webkit-scrollbar-track {
+.juicer-feed ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
-/* Handle */
-.fil-actu ::-webkit-scrollbar-thumb {
+.juicer-feed ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     border: 1px solid #fff;
 }
-/* Handle on hover */
-.fil-actu ::-webkit-scrollbar-thumb:hover {
+.juicer-feed ::-webkit-scrollbar-thumb:hover {
     background: #7f7f7f;
-}
+}*/
 
 
 
@@ -207,7 +196,7 @@ padding-top: 55px;
   background-image: url("../img/forme-team-cut.png");
   background-size: 570px;
   background-repeat: no-repeat;
-  margin-top: 105px;
+  margin-top: 135px;
 }
 .img-team {
   width: 500px;
@@ -262,7 +251,7 @@ padding-top: 55px;
   width: 500px;
   margin-top: 85px;
   margin-bottom: 135px;
-  margin-left: 15px;
+  margin-left: 85px;
   border-radius: 10px;
   border: 5px solid #fff;
   box-shadow: 2px 2px 10px #747474;
@@ -270,7 +259,7 @@ padding-top: 55px;
 .description-pro {
   margin-top: 75px;
   text-align: center;
-  margin-left: 20%
+  margin-left: 25%
 }
 .text-pro {
   color: #747474;
